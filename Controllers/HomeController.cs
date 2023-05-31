@@ -12,7 +12,13 @@ public class HomeController : Controller {
     }
 
     public IActionResult Index() {
-        return View();
+        using (var db = new test_mvcContext()) {
+            var viewModel = new ViewModel();
+            viewModel.Categories = db.Categories.ToList();
+            viewModel.NewsList = db.News.ToList();
+
+            return View(viewModel);
+        }
     }
 
     public IActionResult Privacy() {
@@ -22,5 +28,10 @@ public class HomeController : Controller {
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error() {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+    
+    public partial class ViewModel {
+        public List<Category> Categories { get; set; }
+        public List<News> NewsList { get; set; }
     }
 }
