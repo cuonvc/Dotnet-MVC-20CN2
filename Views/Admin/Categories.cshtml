@@ -16,7 +16,7 @@
     </div>
     <div class="card-body">
         <div class="table-responsive">
-            <a href="#" class="btn btn-primary btn-icon-split btn-md">
+            <a href="/admin/createCategory" class="btn btn-primary btn-icon-split btn-md">
                 <span class="icon text-white-30">
                     <i class="fas fa-plus">Add new category</i>
                 </span>
@@ -42,10 +42,10 @@
                         <td>@item.Name</td>
                         <td>@item.Description</td>
                         <td>
-                            <a href="#" class="btn btn-info btn-circle btn-sm">
+                            <a href="/admin/updateCategory?id=@item.Id" class="btn btn-info btn-circle btn-sm">
                                 <i class="fas fa-info-circle"></i>
                             </a>
-                            <a href="#" class="btn btn-danger btn-circle btn-sm">
+                            <a href="/admin/deleteCategory?id=@item.Id" class="btn btn-danger btn-circle btn-sm">
                                 <i class="fas fa-trash"></i>
                             </a>
                         </td>
