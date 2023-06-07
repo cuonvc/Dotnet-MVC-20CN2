@@ -6,7 +6,7 @@ namespace cuong.Controllers;
 
 public class ClientController : Controller {
 
-    private static readonly string API_KEY = "140eddc18c807e3115d3b6b8068b61cd";
+    private static readonly string API_KEY = "140eddc18c807e3115d3b6b8068b61cdxxx";
 
     [HttpGet]
     [Route("/api/{city}")]
