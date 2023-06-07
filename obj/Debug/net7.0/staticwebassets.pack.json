@@ -7977,6 +7977,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Workspace\\Csharp\\Csharp-20CN2-Tutorial\\mvc\\cuong\\wwwroot\\weather.html",
+      "PackagePath": "staticwebassets\\weather.html"
+    },
+    {
       "Id": "D:\\Workspace\\Csharp\\Csharp-20CN2-Tutorial\\mvc\\cuong\\wwwroot\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
     },

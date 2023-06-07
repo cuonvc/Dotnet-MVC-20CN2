@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DRhEblME4xU91w37xnyJdRP2zbkuSVy6hIX6Hc6dNBM=",
+  "Hash": "NREf3qr2GOSzSkYm83M8NNzx8GsSnAgTPO+hqSa0hB4=",
   "Source": "cuong",
   "BasePath": "_content/cuong",
   "Mode": "Default",
@@ -33930,6 +33930,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\README.md"
+    },
+    {
+      "Identity": "D:\\Workspace\\Csharp\\Csharp-20CN2-Tutorial\\mvc\\cuong\\wwwroot\\weather.html",
+      "SourceId": "cuong",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspace\\Csharp\\Csharp-20CN2-Tutorial\\mvc\\cuong\\wwwroot\\",
+      "BasePath": "_content/cuong",
+      "RelativePath": "weather.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\weather.html"
     },
     {
       "Identity": "D:\\Workspace\\Csharp\\Csharp-20CN2-Tutorial\\mvc\\cuong\\wwwroot\\webfonts\\fa-brands-400.eot",

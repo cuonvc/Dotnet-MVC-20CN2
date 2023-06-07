@@ -82,3 +82,7 @@ D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\obj\Debug\net7.0\refint\cuon
 D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\obj\Debug\net7.0\cuong.pdb
 D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\obj\Debug\net7.0\cuong.genruntimeconfig.cache
 D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\obj\Debug\net7.0\ref\cuong.dll
+D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\bin\Debug\net7.0\RestSharp.dll
+D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\obj\Debug\net7.0\cuong.MvcApplicationPartsAssemblyInfo.cs

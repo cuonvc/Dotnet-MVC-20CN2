@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+</head>
+<body style="text-align: center">
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Blooger</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="/home">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./weather.html">Weather</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Webtrether</h1>
+        <input class="city_input" type="text" placeholder="Nhập tên thành phố">
+        <br>
+        <button class="btn">Get data</button>
+        <div class="box_content">
+    </div>
+
+</div>
+</body>
+
+<script>
+
+    const city = document.querySelector(".city_input");
+    document.querySelector(".btn").addEventListener("click", function() {
+
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+        };
+
+        fetch(`https://localhost:44326/api/${city.value}`, requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                const boxContent = document.querySelector(".box_content");
+                const content = `
+                <h3 class="content_city">Thành phố: ${result.name}</h3>
+                <p class="content_temp" id="temp">Nhiệt độ hiện tại: ${result.main.temp}</p>
+                <p class="content_temp" id="feels_like">Cảm giác như: ${result.main.feels_like}</p>
+                <p class="content_temp" id="temp_min">Nhiệt độ có thể thấp nhất: ${result.main.temp_min}</p>
+                <p class="content_temp" id="temp_max">Nhiệt độ có thể cao nhất: ${result.main.temp_max}</p>
+                <p class="content_temp" id="description">Mô tả: ${result.weather.description}</p>
+                <p class="content_temp" id="cloud">Mây: ${result.clouds.all}</p>
+                <p class="content_temp" id="cloud">Mặt trời mọc: ${result.sys.sunrise}</p>
+                <p class="content_temp" id="cloud">Mặt trời lặn: ${result.sys.sunset}</p>
+            `;
+
+                boxContent.innerHTML = content;
+            })
+            .catch(error => console.log('error', error));
+    });
+
+</script>
+
+</html>
