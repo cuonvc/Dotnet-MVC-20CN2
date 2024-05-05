@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cuong
 build_property.RootNamespace = cuong
-build_property.ProjectDir = D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong\
+build_property.ProjectDir = /home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Workspace\Csharp\Csharp-20CN2-Tutorial\mvc\cuong
+build_property.MSBuildProjectDirectory = /home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Admin/Categories.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllcy5jc2h0bWw=
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Admin/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Admin/CreateCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Admin/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Admin/UpdateCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Admin/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Shared/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Workspace/Csharp/Csharp-20CN2-Tutorial/mvc/cuong/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-63ab4ixduo
+[/home/cuonvc/workspace/20CN2/ecommerce/Dotnet-MVC-20CN2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qykl9y4oc1
